@@ -1,0 +1,14 @@
+- Estructura de tabla para la tabla `capacitador`
+-- 
+
+CREATE TABLE `capacitador` (
+  `id_capacitador` int(10) NOT NULL AUTO_INCREMENT,
+  `nom_emp` varchar(50) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  `area_conoc` varchar(100) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  `rfc_emp` varchar(20) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  `email_emp` varchar(40) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  `tel_emp` int(15) DEFAULT NULL,
+  `nom_inst` varchar(50) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  `rfc_inst` varchar(20) CHARACTER SET latin1 COLLATE latin1_spanish_ci DEFAULT NULL,
+  PRIMARY KEY (`id_capacitador`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
